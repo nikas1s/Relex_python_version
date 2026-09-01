@@ -1,0 +1,31 @@
+{
+  "system": {
+    "ap": 25.01,
+    "zp": 9.0,
+    "at": 208.98,
+    "zt": 83.0,
+    "eca": 100.0,
+    "iw": 0,
+    "iout": 1
+  },
+  "integration": {
+    "nb": 40,
+    "accur": 0.001,
+    "bmin": 10.0,
+    "itot": 1
+  },
+  "options": {
+    "iopw": 0,
+    "iopnuc": 0
+  },
+  "grid": {
+    "ngrid": 200
+  },
+  "states": [
+    {"i": 1, "ex": 0.0, "spin": 2.5},
+    {"i": 2, "ex": 3.3, "spin": 4.5}
+  ],
+  "matrix_elements": [
+    {"i": 1, "j": 2, "mate1": 0.0, "mate2": 10.5, "matm1": 0.0}
+  ]
+}
